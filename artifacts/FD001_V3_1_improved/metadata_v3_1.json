@@ -1,0 +1,46 @@
+{
+  "subset": "FD001",
+  "window_size": 30,
+  "rul_cap": 125,
+  "best_validation_epoch": 10,
+  "validation_metrics_raw_rul": {
+    "RMSE": 77.1953544400697,
+    "MAE": 67.86753650303305,
+    "NASA Score": 260407.4716834306,
+    "Mean NASA Score": 1900.7844648425591,
+    "R2": -3.4010685182056513
+  },
+  "validation_metrics_capped_rul": {
+    "RMSE": 77.1953544400697,
+    "MAE": 67.86753650303305,
+    "NASA Score": 260407.4716834306,
+    "Mean NASA Score": 1900.7844648425591,
+    "R2": -3.4010685182056513
+  },
+  "official_test_metrics_raw_rul": {
+    "RMSE": 14.51691720020021,
+    "MAE": 11.298463439941406,
+    "NASA Score": 335.44649528643794,
+    "Mean NASA Score": 3.3544649528643795,
+    "R2": 0.8779636372095098
+  },
+  "official_test_metrics_capped_rul": {
+    "RMSE": 13.2643458767938,
+    "MAE": 10.228463439941406,
+    "NASA Score": 302.30560682312216,
+    "Mean NASA Score": 3.0230560682312215,
+    "R2": 0.8904374915494481
+  },
+  "num_parameters": 79649,
+  "model": "BiLSTM with temporal attention pooling",
+  "validation_cutoff_rul_points": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    120,
+    125
+  ],
+  "target_cap": 125
+}

@@ -1,0 +1,19 @@
+{
+  "subset": "FD001",
+  "window_size": 30,
+  "rul_cap": 125,
+  "best_validation_epoch": 12,
+  "validation_metrics": {
+    "RMSE": 9.17451701149598,
+    "MAE": 7.582480812072754,
+    "NASA Score": 28.258507936724488,
+    "R2": 0.7383613739261163
+  },
+  "official_test_metrics": {
+    "RMSE": 17.587292878336847,
+    "MAE": 14.235850486755371,
+    "NASA Score": 632.9469967422672,
+    "R2": 0.8208823232579935
+  },
+  "num_parameters": 333473
+}

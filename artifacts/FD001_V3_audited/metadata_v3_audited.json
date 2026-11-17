@@ -1,0 +1,46 @@
+{
+  "subset": "FD001",
+  "window_size": 30,
+  "rul_cap": 125,
+  "best_validation_epoch": 1,
+  "validation_metrics_raw_rul": {
+    "RMSE": 22.542501040088673,
+    "MAE": 16.43150271645075,
+    "NASA Score": 1903.7720742055576,
+    "Mean NASA Score": 12.04919034307315,
+    "R2": 0.7492352034188234
+  },
+  "validation_metrics_capped_rul": {
+    "RMSE": 15.464506751259465,
+    "MAE": 11.589730564552017,
+    "NASA Score": 682.0315755715217,
+    "Mean NASA Score": 4.316655541591909,
+    "R2": 0.8340515720786944
+  },
+  "official_test_metrics_raw_rul": {
+    "RMSE": 15.611522013773149,
+    "MAE": 11.886984939575195,
+    "NASA Score": 407.9893883791115,
+    "Mean NASA Score": 4.079893883791115,
+    "R2": 0.8588662284711459
+  },
+  "official_test_metrics_capped_rul": {
+    "RMSE": 14.445716491878168,
+    "MAE": 10.816984939575196,
+    "NASA Score": 372.0070738003329,
+    "Mean NASA Score": 3.720070738003329,
+    "R2": 0.8700523393345212
+  },
+  "num_parameters": 403937,
+  "validation_cutoff_rul_points": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    120,
+    125,
+    150,
+    180
+  ]
+}
