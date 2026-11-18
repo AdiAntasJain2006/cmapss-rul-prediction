@@ -1,0 +1,67 @@
+{
+  "subset": "FD001",
+  "proposed_model": "DASI-GRU",
+  "baseline_model": "Original V2 GRU",
+  "dasi_features": [
+    "sensor_11",
+    "sensor_4",
+    "sensor_12",
+    "sensor_7",
+    "sensor_15",
+    "sensor_20",
+    "sensor_21",
+    "sensor_2",
+    "sensor_17",
+    "sensor_3",
+    "sensor_8",
+    "sensor_13",
+    "sensor_6",
+    "sensor_9"
+  ],
+  "baseline_features": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "window_size": 30,
+  "rul_cap": 125,
+  "validation_rul_points": [
+    20,
+    50,
+    80,
+    110
+  ],
+  "dasi_validation_metrics": {
+    "RMSE": 16.39798776064862,
+    "MAE": 11.827397938016095,
+    "NASA Score": 938.056756548904
+  },
+  "baseline_validation_metrics": {
+    "RMSE": 15.26026577984089,
+    "MAE": 10.513503159148783,
+    "NASA Score": 817.6381720425965
+  },
+  "dasi_official_test_metrics_capped": {
+    "RMSE": 14.034935641710918,
+    "MAE": 9.56972068786621,
+    "NASA Score": 424.4395725835679
+  },
+  "baseline_official_test_metrics_capped": {
+    "RMSE": 13.651246600465328,
+    "MAE": 9.579513092041015,
+    "NASA Score": 338.735824436562
+  },
+  "best_validation_epoch_dasi": 2,
+  "best_validation_epoch_baseline": 2
+}

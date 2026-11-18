@@ -1,0 +1,97 @@
+{
+  "subset": "FD001",
+  "proposed_model": "DTA-GRU",
+  "baseline_model": "Pure GRU V2",
+  "raw_sensors": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "proposed_features": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21",
+    "sensor_2_velocity_5",
+    "sensor_3_velocity_5",
+    "sensor_4_velocity_5",
+    "sensor_7_velocity_5",
+    "sensor_8_velocity_5",
+    "sensor_9_velocity_5",
+    "sensor_11_velocity_5",
+    "sensor_12_velocity_5",
+    "sensor_13_velocity_5",
+    "sensor_14_velocity_5",
+    "sensor_15_velocity_5",
+    "sensor_17_velocity_5",
+    "sensor_20_velocity_5",
+    "sensor_21_velocity_5"
+  ],
+  "window_size": 30,
+  "rul_cap": 125,
+  "validation_rul_points": [
+    20,
+    50,
+    80,
+    110
+  ],
+  "baseline_validation_metrics": {
+    "RMSE": 15.26026577984089,
+    "MAE": 10.513503159148783,
+    "NASA Score": 817.6381720425965
+  },
+  "trend_validation_metrics": {
+    "RMSE": 15.055541743355892,
+    "MAE": 11.283004712454881,
+    "NASA Score": 407.12292867941557
+  },
+  "dta_validation_metrics": {
+    "RMSE": 14.080193027560764,
+    "MAE": 10.199242362493202,
+    "NASA Score": 327.9604320746213
+  },
+  "baseline_test_metrics_capped": {
+    "RMSE": 13.651246600465328,
+    "MAE": 9.579513092041015,
+    "NASA Score": 338.735824436562
+  },
+  "trend_test_metrics_capped": {
+    "RMSE": 14.750603444439882,
+    "MAE": 10.438224601745606,
+    "NASA Score": 570.3626049053661
+  },
+  "dta_test_metrics_capped": {
+    "RMSE": 14.080716475211437,
+    "MAE": 10.020170211791992,
+    "NASA Score": 453.4201334220768
+  },
+  "baseline_best_epoch": 2,
+  "trend_best_epoch": 1,
+  "dta_best_epoch": 1,
+  "loss_parameters": {
+    "late_life_boost": 0.5,
+    "gamma": 1.0,
+    "overprediction_weight": 1.25
+  }
+}
